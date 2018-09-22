@@ -8,6 +8,6 @@ def show_num(post_num):
 
 #set port to 8003
 if __name__ == "__main__":
-    app.run()
+    app.run(port=8002)
 
-#There is no specified port in this test
+#added port 8002 as a requirement
